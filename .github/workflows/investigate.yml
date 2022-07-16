@@ -18,7 +18,7 @@ jobs:
         with:
           script: |
             const fs = require('fs').promises;
-            const script = require('ci-services.js');
+            const script = require('./ci-services.js');
             const result = await script({github});
             console.log('CircleCI', result.filter(x => x.CircleCI).length);
             console.log('Travis CI', result.filter(x => x.TravisCI).length);
@@ -32,3 +32,13 @@ jobs:
             console.log('==========');
             console.log(result);
             await fs.writeFile('ci-services.json', JSON.stringify(result, null, 2));
+      - uses: snow-actions/git-config-user@v1.0.0
+      - id: diff
+        run: |
+          git add .
+          git diff --exit-code
+        continue-on-error: true
+      - run: |
+          git commit -m 'Update ci-services.json'
+          git push
+        if: steps.diff.outcome == 'failure'
