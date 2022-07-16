@@ -1,0 +1,34 @@
+name: Investigate
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 1 * *'
+
+jobs:
+  investigate:
+    runs-on: ubuntu-20.04
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs').promises;
+            const script = require('ci-services.js');
+            const result = await script({github});
+            console.log('CircleCI', result.filter(x => x.CircleCI).length);
+            console.log('Travis CI', result.filter(x => x.TravisCI).length);
+            console.log('Drone', result.filter(x => x.Drone).length);
+            console.log('Azure Pipelines', result.filter(x => x.AzurePipelines).length);
+            console.log('Appveyor', result.filter(x => x.Appveyor).length);
+            console.log('GitHub Actions', result.filter(x => x.GitHubActions).length);
+            console.log('None', result.filter(x => !x.CircleCI && !x.TravisCI && !x.Drone && !x.AzurePipelines && !x.Appveyor && !x.GitHubActions).length);
+            console.log('----------');
+            console.log('Total', result.length);
+            console.log('==========');
+            console.log(result);
+            await fs.writeFile('ci-services.json', JSON.stringify(result, null, 2));
