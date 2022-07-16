@@ -3,7 +3,7 @@ name: Investigate
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 1 * *'
+    - cron: '0 0 25 * *'
 
 jobs:
   investigate:
