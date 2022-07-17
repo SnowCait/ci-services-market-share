@@ -27,6 +27,9 @@ module.exports = async ({github}) => {
     // Appveyor
     const Appveyor = root.some(x => x.type == 'file' && x.name == 'appveyor.yml');
     
+    // GitLab CI/CD
+    const GitLabCICD = root.some(x => x.type == 'file' && x.name == '.gitlab-ci.yml');
+    
     // GitHub Actions
     let GitHubActions = false;
     if (root.some(x => x.type == 'dir' && x.name == '.github')) {
@@ -46,6 +49,7 @@ module.exports = async ({github}) => {
       Drone,
       AzurePipelines,
       Appveyor,
+      GitLabCICD,
       GitHubActions,
     }
   }));
