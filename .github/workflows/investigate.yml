@@ -48,6 +48,6 @@ jobs:
         continue-on-error: true
       - run: |
           git add .
-          git commit -m 'Update ci-services.json'
+          git commit -m 'Update'
           git push
         if: steps.diff.outcome == 'failure'
