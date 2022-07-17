@@ -6,5 +6,5 @@ See [ci-services.json](ci-services.json) and [aggregation.json](aggregation.json
 
 ## Notice
 
-- Only public repository in GitHub
+- Only public repositories in GitHub
 - Exclude Jenkins, GitLab CI
