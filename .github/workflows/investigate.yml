@@ -24,6 +24,7 @@ jobs:
               Drone: result.filter(x => x.Drone).length,
               AzurePipelines: result.filter(x => x.AzurePipelines).length,
               Appveyor: result.filter(x => x.Appveyor).length,
+              GitLabCICD: result.filter(x => x.GitLabCICD).length,
               GitHubActions: result.filter(x => x.GitHubActions).length,
               None: result.filter(x => !x.CircleCI && !x.TravisCI && !x.Drone && !x.AzurePipelines && !x.Appveyor && !x.GitHubActions).length,
             };
@@ -32,6 +33,7 @@ jobs:
             console.log('Drone', result.filter(x => x.Drone).length);
             console.log('Azure Pipelines', result.filter(x => x.AzurePipelines).length);
             console.log('Appveyor', result.filter(x => x.Appveyor).length);
+            console.log('GitLab CI/CD', result.filter(x => x.GitLabCICD).length);
             console.log('GitHub Actions', result.filter(x => x.GitHubActions).length);
             console.log('None', result.filter(x => !x.CircleCI && !x.TravisCI && !x.Drone && !x.AzurePipelines && !x.Appveyor && !x.GitHubActions).length);
             console.log('----------');
