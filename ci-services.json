@@ -165,8 +165,8 @@
     "GitHubActions": false
   },
   {
-    "repository": "ohmyzsh/ohmyzsh",
-    "url": "https://github.com/ohmyzsh/ohmyzsh",
+    "repository": "trekhleb/javascript-algorithms",
+    "url": "https://github.com/trekhleb/javascript-algorithms",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -176,8 +176,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "trekhleb/javascript-algorithms",
-    "url": "https://github.com/trekhleb/javascript-algorithms",
+    "repository": "ohmyzsh/ohmyzsh",
+    "url": "https://github.com/ohmyzsh/ohmyzsh",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -341,41 +341,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "electron/electron",
-    "url": "https://github.com/electron/electron",
-    "CircleCI": true,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": true,
-    "GitLabCICD": false,
-    "GitHubActions": true
-  },
-  {
     "repository": "golang/go",
     "url": "https://github.com/golang/go",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
-    "repository": "d3/d3",
-    "url": "https://github.com/d3/d3",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": true
-  },
-  {
-    "repository": "30-seconds/30-seconds-of-code",
-    "url": "https://github.com/30-seconds/30-seconds-of-code",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -394,6 +361,39 @@
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": false
+  },
+  {
+    "repository": "electron/electron",
+    "url": "https://github.com/electron/electron",
+    "CircleCI": true,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": true,
+    "GitLabCICD": false,
+    "GitHubActions": true
+  },
+  {
+    "repository": "30-seconds/30-seconds-of-code",
+    "url": "https://github.com/30-seconds/30-seconds-of-code",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
+  },
+  {
+    "repository": "d3/d3",
+    "url": "https://github.com/d3/d3",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": true
   },
   {
     "repository": "facebook/create-react-app",
@@ -473,8 +473,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "microsoft/terminal",
-    "url": "https://github.com/microsoft/terminal",
+    "repository": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -495,8 +495,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "mrdoob/three.js",
-    "url": "https://github.com/mrdoob/three.js",
+    "repository": "microsoft/terminal",
+    "url": "https://github.com/microsoft/terminal",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -572,17 +572,6 @@
     "GitHubActions": true
   },
   {
-    "repository": "PanJiaChen/vue-element-admin",
-    "url": "https://github.com/PanJiaChen/vue-element-admin",
-    "CircleCI": false,
-    "TravisCI": true,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
     "repository": "yangshun/tech-interview-handbook",
     "url": "https://github.com/yangshun/tech-interview-handbook",
     "CircleCI": false,
@@ -605,15 +594,15 @@
     "GitHubActions": true
   },
   {
-    "repository": "iluwatar/java-design-patterns",
-    "url": "https://github.com/iluwatar/java-design-patterns",
-    "CircleCI": true,
-    "TravisCI": false,
+    "repository": "PanJiaChen/vue-element-admin",
+    "url": "https://github.com/PanJiaChen/vue-element-admin",
+    "CircleCI": false,
+    "TravisCI": true,
     "Drone": false,
     "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
-    "GitHubActions": true
+    "GitHubActions": false
   },
   {
     "repository": "trimstray/the-book-of-secret-knowledge",
@@ -636,6 +625,17 @@
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": false
+  },
+  {
+    "repository": "iluwatar/java-design-patterns",
+    "url": "https://github.com/iluwatar/java-design-patterns",
+    "CircleCI": true,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": true
   },
   {
     "repository": "animate-css/animate.css",
@@ -693,17 +693,6 @@
     "GitHubActions": false
   },
   {
-    "repository": "MisterBooo/LeetCodeAnimation",
-    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
     "repository": "rust-lang/rust",
     "url": "https://github.com/rust-lang/rust",
     "CircleCI": false,
@@ -713,6 +702,17 @@
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
+  },
+  {
+    "repository": "MisterBooo/LeetCodeAnimation",
+    "url": "https://github.com/MisterBooo/LeetCodeAnimation",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
   },
   {
     "repository": "laravel/laravel",
@@ -726,15 +726,15 @@
     "GitHubActions": true
   },
   {
-    "repository": "FortAwesome/Font-Awesome",
-    "url": "https://github.com/FortAwesome/Font-Awesome",
-    "CircleCI": false,
+    "repository": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "CircleCI": true,
     "TravisCI": false,
     "Drone": false,
     "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
-    "GitHubActions": false
+    "GitHubActions": true
   },
   {
     "repository": "Genymobile/scrcpy",
@@ -748,30 +748,19 @@
     "GitHubActions": false
   },
   {
-    "repository": "huggingface/transformers",
-    "url": "https://github.com/huggingface/transformers",
-    "CircleCI": true,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": true
-  },
-  {
-    "repository": "gothinkster/realworld",
-    "url": "https://github.com/gothinkster/realworld",
+    "repository": "FortAwesome/Font-Awesome",
+    "url": "https://github.com/FortAwesome/Font-Awesome",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
     "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
-    "GitHubActions": true
+    "GitHubActions": false
   },
   {
-    "repository": "vuejs/awesome-vue",
-    "url": "https://github.com/vuejs/awesome-vue",
+    "repository": "gothinkster/realworld",
+    "url": "https://github.com/gothinkster/realworld",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -792,17 +781,6 @@
     "GitHubActions": true
   },
   {
-    "repository": "bitcoin/bitcoin",
-    "url": "https://github.com/bitcoin/bitcoin",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
     "repository": "tonsky/FiraCode",
     "url": "https://github.com/tonsky/FiraCode",
     "CircleCI": false,
@@ -812,6 +790,28 @@
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
+  },
+  {
+    "repository": "vuejs/awesome-vue",
+    "url": "https://github.com/vuejs/awesome-vue",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": true
+  },
+  {
+    "repository": "bitcoin/bitcoin",
+    "url": "https://github.com/bitcoin/bitcoin",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
   },
   {
     "repository": "doocs/advanced-java",
@@ -825,8 +825,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "moby/moby",
-    "url": "https://github.com/moby/moby",
+    "repository": "papers-we-love/papers-we-love",
+    "url": "https://github.com/papers-we-love/papers-we-love",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -836,8 +836,8 @@
     "GitHubActions": true
   },
   {
-    "repository": "papers-we-love/papers-we-love",
-    "url": "https://github.com/papers-we-love/papers-we-love",
+    "repository": "moby/moby",
+    "url": "https://github.com/moby/moby",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
@@ -891,9 +891,20 @@
     "GitHubActions": true
   },
   {
-    "repository": "sveltejs/svelte",
-    "url": "https://github.com/sveltejs/svelte",
+    "repository": "mtdvio/every-programmer-should-know",
+    "url": "https://github.com/mtdvio/every-programmer-should-know",
     "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
+  },
+  {
+    "repository": "gohugoio/hugo",
+    "url": "https://github.com/gohugoio/hugo",
+    "CircleCI": true,
     "TravisCI": false,
     "Drone": false,
     "AzurePipelines": false,
@@ -902,12 +913,12 @@
     "GitHubActions": true
   },
   {
-    "repository": "webpack/webpack",
-    "url": "https://github.com/webpack/webpack",
+    "repository": "sveltejs/svelte",
+    "url": "https://github.com/sveltejs/svelte",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
-    "AzurePipelines": true,
+    "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
@@ -935,23 +946,12 @@
     "GitHubActions": false
   },
   {
-    "repository": "mtdvio/every-programmer-should-know",
-    "url": "https://github.com/mtdvio/every-programmer-should-know",
+    "repository": "webpack/webpack",
+    "url": "https://github.com/webpack/webpack",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
-    "repository": "gohugoio/hugo",
-    "url": "https://github.com/gohugoio/hugo",
-    "CircleCI": true,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
+    "AzurePipelines": true,
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
@@ -990,15 +990,15 @@
     "GitHubActions": true
   },
   {
-    "repository": "apple/swift",
-    "url": "https://github.com/apple/swift",
+    "repository": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
     "CircleCI": false,
     "TravisCI": false,
     "Drone": false,
     "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
-    "GitHubActions": false
+    "GitHubActions": true
   },
   {
     "repository": "netdata/netdata",
@@ -1012,6 +1012,17 @@
     "GitHubActions": true
   },
   {
+    "repository": "apple/swift",
+    "url": "https://github.com/apple/swift",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
+  },
+  {
     "repository": "pallets/flask",
     "url": "https://github.com/pallets/flask",
     "CircleCI": false,
@@ -1023,15 +1034,37 @@
     "GitHubActions": true
   },
   {
-    "repository": "tailwindlabs/tailwindcss",
-    "url": "https://github.com/tailwindlabs/tailwindcss",
-    "CircleCI": false,
+    "repository": "fatedier/frp",
+    "url": "https://github.com/fatedier/frp",
+    "CircleCI": true,
     "TravisCI": false,
     "Drone": false,
     "AzurePipelines": false,
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
+  },
+  {
+    "repository": "ripienaar/free-for-dev",
+    "url": "https://github.com/ripienaar/free-for-dev",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
+  },
+  {
+    "repository": "521xueweihan/HelloGitHub",
+    "url": "https://github.com/521xueweihan/HelloGitHub",
+    "CircleCI": false,
+    "TravisCI": false,
+    "Drone": false,
+    "AzurePipelines": false,
+    "Appveyor": false,
+    "GitLabCICD": false,
+    "GitHubActions": false
   },
   {
     "repository": "angular/angular.js",
@@ -1045,8 +1078,8 @@
     "GitHubActions": false
   },
   {
-    "repository": "fatedier/frp",
-    "url": "https://github.com/fatedier/frp",
+    "repository": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
     "CircleCI": true,
     "TravisCI": false,
     "Drone": false,
@@ -1065,38 +1098,5 @@
     "Appveyor": false,
     "GitLabCICD": false,
     "GitHubActions": true
-  },
-  {
-    "repository": "521xueweihan/HelloGitHub",
-    "url": "https://github.com/521xueweihan/HelloGitHub",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
-    "repository": "atom/atom",
-    "url": "https://github.com/atom/atom",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
-  },
-  {
-    "repository": "resume/resume.github.com",
-    "url": "https://github.com/resume/resume.github.com",
-    "CircleCI": false,
-    "TravisCI": false,
-    "Drone": false,
-    "AzurePipelines": false,
-    "Appveyor": false,
-    "GitLabCICD": false,
-    "GitHubActions": false
   }
 ]

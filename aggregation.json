@@ -1,10 +1,10 @@
 {
-  "CircleCI": 11,
+  "CircleCI": 12,
   "TravisCI": 8,
   "Drone": 0,
   "AzurePipelines": 3,
   "Appveyor": 2,
   "GitLabCICD": 0,
-  "GitHubActions": 65,
-  "None": 29
+  "GitHubActions": 66,
+  "None": 28
 }
