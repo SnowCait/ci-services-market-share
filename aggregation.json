@@ -5,6 +5,6 @@
   "AzurePipelines": 1,
   "Appveyor": 1,
   "GitLabCICD": 0,
-  "GitHubActions": 70,
-  "None": 26
+  "GitHubActions": 71,
+  "None": 25
 }
