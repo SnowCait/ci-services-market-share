@@ -1,6 +1,6 @@
 {
-  "CircleCI": 6,
-  "TravisCI": 7,
+  "CircleCI": 5,
+  "TravisCI": 6,
   "Drone": 0,
   "AzurePipelines": 0,
   "Appveyor": 0,
